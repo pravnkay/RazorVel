@@ -1,7 +1,7 @@
 {
     "name": "pravnkay/razorvel",
     "description": "A Razorpay API integration for ease of use in Laravel",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
