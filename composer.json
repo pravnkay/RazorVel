@@ -1,0 +1,34 @@
+{
+    "name": "pravnkay/razorvel",
+    "description": "A Razorpay API integration for ease of use in Laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Praveen K",
+            "email": "github@praveen.bulc.club"
+        }
+    ],
+    "minimum-stability": "dev",
+	"require": {
+        "razorpay/razorpay": "9999999-dev"
+    },
+	"autoload": {
+		"psr-4": {
+			"Pravnkay\\Razorvel\\": "src"
+		}
+	},
+    "require-dev": {
+        "orchestra/testbench": "9999999-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pravnkay\\Razorvel\\Providers\\RazorvelServiceProvider"
+            ],
+            "aliases": {
+				"Razorpay": "Pravnkay\\Razorvel\\Razorpay"
+			}
+        }
+    }
+}
