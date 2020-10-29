@@ -9,9 +9,10 @@
             "email": "github@praveen.bulc.club"
         }
     ],
-    "minimum-stability": "dev",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"require": {
-        "razorpay/razorpay": "9999999-dev"
+        "razorpay/razorpay": "2.*"
     },
 	"autoload": {
 		"psr-4": {
@@ -19,7 +20,7 @@
 		}
 	},
     "require-dev": {
-        "orchestra/testbench": "9999999-dev"
+        "orchestra/testbench": "6.x"
     },
     "extra": {
         "laravel": {
