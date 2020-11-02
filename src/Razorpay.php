@@ -582,10 +582,4 @@ class Razorpay
 
     // ------------------------------------------------------------------------
 
-    // TODO
-    // Payment Links (remaing methods)
-    // Invoices
-    // Virtual Accounts
-
-
 }
